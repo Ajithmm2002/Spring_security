@@ -38,6 +38,7 @@ public class StudentController {
         return studentService.getAllStudents();
     }
 
+
     @PostMapping("/add")
     public Student addStudent(@RequestBody Student student){
         students.add(student);
